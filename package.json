@@ -1,0 +1,18 @@
+{
+  "name": "stateless-2fa",
+  "version": "1.0.0",
+  "description": "A stateless 2FA example using Node.js and TOTP",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["2fa", "stateless", "totp", "nodejs", "auth"],
+  "author": "Peter",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "speakeasy": "^2.0.0",
+    "qrcode": "^1.5.1"
+  }
+}
